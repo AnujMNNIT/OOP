@@ -8,6 +8,7 @@ Recursive constructor calling is invalid in java.
 Constructor calling must be the first statement of constructor in Java.
 There is no destructor in java  Because Java is a garbage collected language you cannot predict
 when (or even if) an object will be destroyed. Hence there is no direct equivalent of a destructor.
+A constructor can not be enclosed in try-catch block
  */
 package Constructor;
 
